@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="./img/favicon.ico"/>
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <a href="" class="header--social">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="" class="header--social">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="header--social">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="header--social">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="" class="header--social">
+            <i class="fab fa-snapchat"></i>
+        </a>
+        <a href="" class="header--social">
+            <i class="fab fa-sass"></i>
+        </a>
+        <a href="" class="header--search">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+    <div id="home" class="welcome">
+        <div class="welcome__header">
+            <h1>JANE BLOGLIFE</h1>
+        </div>
+        <div class="welcome__disc">
+            <p>Welcome to the blog of 
+                <b>Jane's world</b> 
+            </p>
+        </div>
+    </div>
+    <div class="banner">
+        <!-- <div class="banner__img"> -->
+            <img src="./img/jane.jpg">
+            <div class="banner__disc">
+                <div class="banner__disc--text">
+                    <h1>Jane's</h1>
+                    <p>FASHION BLOG</p>
+                </div>
+                <button id="subcribe" class="banner__disc--button">Subcribe</button>
+            </div>
+        <!-- </div> -->
+        
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal__content">
+            <div class="modal__content--header">SUBSCRIBE
+                <i id="close" class="modal--close fas fa-times"></i>
+                
+            </div>
+            
+            <div class="modal__content--disc">Join my mailing list to receive updates on the latest blog posts and other things.
+            </div>
+            
+            <div class="modal__content--input">
+                <input type="email" name="email" id="" placeholder="Enter e-mail here !">
+            </div>
+            
+            <div class="modal__content--button">
+                <button>Subcribe</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" style="padding: 16px 16px;">
+        <div class="left-row">
+            <div class="left-col">
+                <div class="left-content">
+                    <h3 class="left-content__header">TITLE HEADING</h3>
+                    <div class="left-content__disc">Title description, May 2, 2016
+                    </div>
+                    <img class="left-content__img" src="./img/girl_hat.jpg" >
+                    <h5 class="left-content__text-header">More Hats! I am crazy about hats these days. </h5>
+                    <p class="left-content__text">Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <button type="submit" class="left-content__like-btn">
+                        Like
+                        <i class="fas fa-thumbs-up"></i>
+                    </button>
+                    <button id="replies" type="submit" class="left-content__replies-btn">
+                        Replies
+                        <span>1</span>
+                    </button>
+                    <div id="comment" class="left-content__comment">
+                        <img class="left-content__comment--img" src="./img/avatar_smoke.jpg" alt="">
+                        <div class="col-75">
+                            <h5 class="left-content__comment--name">George </h5>
+                            <h6 class="left-content__comment--date">May 3, 2015, 6:32 PM
+                            </h6>
+                            <p class="left-content__comment--text">Great blog post! Following</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="left-content">
+                    <h3 class="left-content__header">TITLE HEADING</h3>
+                    <div class="left-content__disc">Title description, May 2, 2016
+                    </div>
+                    <img class="left-content__img" src="./img/man_hat.jpg" >
+                    <h5 class="left-content__text-header">More Hats! I am crazy about hats these days. </h5>
+                    <p class="left-content__text">Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <button type="submit" class="left-content__like-btn">
+                        Like
+                        <i class="fas fa-thumbs-up"></i>
+                    </button>
+                    <button id="replies" type="submit" class="left-content__replies-btn">
+                        Replies
+                        <span>2</span>
+                    </button>
+                    <div id="comment" class="left-content__comment">
+                        <img class="left-content__comment--img" src="./img/girl.jpg" alt="">
+                        <div class="col-75">
+                            <h5 class="left-content__comment--name">Amebr </h5>
+                            <h6 class="left-content__comment--date">
+                                April 26, 2015, 10:52 PM
+                            </h6>
+                            <p class="left-content__comment--text">Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div id="comment" class="left-content__comment">
+                        <img class="left-content__comment--img" src="./img/girl_train.jpg" alt="">
+                        <div class="col-75">
+                            <h5 class="left-content__comment--name">Angie </h5>
+                            <h6 class="left-content__comment--date">April 23, 2015, 9:12 PM
+                            </h6>
+                            <p class="left-content__comment--text">Love hats!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="left-content">
+                    <h3 class="left-content__header">TITLE HEADING</h3>
+                    <div class="left-content__disc">Title description, May 2, 2016
+                    </div>
+                    <img class="left-content__img" src="./img/runway.jpg" >
+                    <h5 class="left-content__text-header">More Hats! I am crazy about hats these days. </h5>
+                    <p class="left-content__text">Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <button type="submit" class="left-content__like-btn">
+                        Like
+                        <i class="fas fa-thumbs-up"></i>
+                    </button>
+                    <button id="replies" type="submit" class="left-content__replies-btn">
+                        Replies
+                        <span>3</span>
+                    </button>
+                    <div id="comment" class="left-content__comment">
+                        <img class="left-content__comment--img" src="./img/girl_mountain.jpg" alt="">
+                        <div class="col-75">
+                            <h5 class="left-content__comment--name">Jane </h5>
+                            <h6 class="left-content__comment--date">April 10, 2015, 7:22 PM
+                            </h6>
+                            <p class="left-content__comment--text">That was a great runway show! Thanks for everything.</p>
+                        </div>
+                    </div>
+                    <div id="comment" class="left-content__comment">
+                        <img class="left-content__comment--img" src="./img/boy.jpg" alt="">
+                        <div class="col-75">
+                            <h5 class="left-content__comment--name">John </h5>
+                            <h6 class="left-content__comment--date">April 8, 2015, 10:32 PM
+                            </h6>
+                            <p class="left-content__comment--text">Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                    <div id="comment" class="left-content__comment">
+                        <img class="left-content__comment--img" src="./img/girl_hood.jpg" alt="">
+                        <div class="col-75">
+                            <h5 class="left-content__comment--name">Anja </h5>
+                            <h6 class="left-content__comment--date">April 7, 2015, 9:12 PM
+                            </h6>
+                            <p class="left-content__comment--text">Cant wait for the runway to start!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="right-row">
+            <div class="right-col">
+                <div class="right-content">
+                    <div class="right-content__first-tag">
+                        <img src="./img/avatar_girl2.jpg" >
+                        <div class="right-content__first-tag--disc">
+                            <h5>JULIA</h5>
+                            <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                        </div>
+                    </div>
+
+                    <div class="right-content__popular-tag">
+                        <header>POPULAR POSTS</header>
+                        <div class="col-full">
+                            <img src="./img/avatar_smoke.jpg" alt="">
+                            <div class="right-content__popular-tag__disc">
+                                <b>Denim</b>
+                                <p>
+                                    Sed mattis nunc
+                                </p>
+                            </div> 
+                        </div>
+                        <div class="col-full">
+                            <img src="./img/bandmember.jpg" alt="">
+                            <div class="right-content__popular-tag__disc">
+                                <b>Sweaters</b>
+                                <p>
+                                    Praes tinci sed
+                                </p>
+                            </div> 
+                        </div>
+                        <div class="col-full">
+                            <img src="./img/workshop.jpg" alt="">
+                            <div class="right-content__popular-tag__disc">
+                                <b>workshop</b>
+                                <p>
+                                    Ultricies congue
+                                </p>
+                            </div> 
+                        </div>
+                        <div class="col-full">
+                            <img src="./img/workshop.jpg" alt="">
+                            <div class="right-content__popular-tag__disc">
+                                <b>Trends</b>
+                                <p>
+                                    Lorem ipsum dipsum
+                                </p>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="right-content__adv-tag">
+                        <header>ADVERTISE</header>
+                        <div class="right-content__adv-tag--img">
+                            <img src="./img/boy.jpg" >
+                        </div>
+                    </div>
+                    
+                    <div class="right-content__tags-tag">
+                        <header>TAGS</header>
+                        <ul class="right-content__tags-tag--tag">
+                            <li>Fashion</li>
+                            <li>New York</li>
+                            <li>London</li>
+                            <li>Hats</li>
+                            <li>Notways</li>
+                            <li>Sweaters</li>
+                            <li>Ideas</li>
+                            <li>Details</li>
+                            <li>Accessories</li>
+                            <li>News</li>
+                            <li>Clothing</li>
+                            <li>Shopping</li>
+                            <li>Jeans</li>
+                            <li>Trends</li>
+                        </ul>
+                    </div>
+
+                    <div class="right-content__inspiration-tag">
+                        <header>Inspiration</header>
+                        <div class="right-content__inspiration-tag--img">
+                            <div class="col-haft">
+                                <img src="./img/jeans.jpg" >
+                            </div>
+                                                            
+                            <div class="col-haft">
+                                <img src="./img/avatar_hat.jpg" >
+                            </div>
+
+                            <div class="col-haft">
+                                <img src="./img/team1.jpg" >
+                            </div>
+                            
+                            <div class="col-haft">
+                                <img src="./img/team4.jpg" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-content__follow-tag">
+                        <header>FOLLOW ME</header>
+                        <div class="right-content__follow-tag--social">
+                            <a href="">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-snapchat"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-sass"></i>
+                            </a>
+                            <a href="">
+                                <i class="fas fa-broadcast-tower"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-amazon"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-buy-n-large"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="right-content__subcribe-tag">
+                        <header>Subcribe</header>
+                        <div class="right-content__subcribe-tag--info">
+                            <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                            <input type="email" placeholder="Enter e-mail here!">
+                            <button>Subcribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer__button">
+            <a href="#home">
+                <i class="fas fa-arrow-up"></i>
+                <p>To the top</p>
+            </a>
+        </div>
+
+        <div class="footer__text">
+            <p>Recreated by
+                <a href="https://www.facebook.com/profile.php?id=100015915511685">Duy Hung</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("modal");
+        
+        // Get the button that opens the modal
+        var subcribe = document.getElementById("subcribe");
+        
+        // Get the <span> element that closes the modal
+        var close = document.getElementById("close");
+        
+        // When the user clicks the subcribe, open the modal 
+        subcribe.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        close.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+
+        // //open comment
+        // const comment = document.querySelectorAll('left-content__comment');
+
+        // const repliess = document.querySelectorAll('.left-content__replies-btn');
+
+        // function showComment(){
+        //     comment.classList.add('open')
+        // }
+
+        // for(const replies of repliess){
+        //     replies.addEventListener('click', showComment)
+        // }
+    </script>
+
+</body>
+</html>
